@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/miestilo.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/miscript.js"></script>
+
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<body>
+
+<div class="row">
+	<div class="col-sm-4"></div>
+	<div class="col-sm-8">
+		<img alt="Galp" src="http://www.astac.info/wp-content/uploads/2015/07/galp-1.jpg" style="left: 320px;">
+	</div>
+</div>
+<h1>Bienvenido a Galp</h1>
+
+<div class="col-sm-2"></div>
+<div class="col-sm-4">
+	<input id="tarjeta" name="Pago con tarjeta" type="button" value="Pago con tarjeta" ><br><br>
+	<form class="tarjeta" action="Validar" method="get">
+		<input name="nombre" type="text" placeholder="Nombre"><br><br>
+		<input name="apellidos" type="text" placeholder="Apellidos"><br><br>
+		<input name="numero tarjeta" type="tel" placeholder="Número de tarjeta"><br><br>
+		<input name="enviar tarjeta" type="submit" value="Verificar">
+	</form>
+</div>
+<div class="col-sm-2"></div>
+<div class="col-sm-4">
+	<input id="efectivo" name="Pago en efectivo" type="button" value="Pago en efectivo"><br><br>
+	<form class="efectivo" action="Validar" method="get">
+		<input name="nombre" type="text" placeholder="Nombre"><br><br>
+		<input name="apellidos" type="text" placeholder="Apellidos"><br><br>
+		<input name="numero billetes" type="tel" placeholder="Número de billetes"><br><br>
+		<input name="enviar efectivo" type="submit" value="Verificar">
+	</form>
+</div>
+
+<footer>Todos los derechos reservados 2016</footer>
+
+</body>
+</html>
